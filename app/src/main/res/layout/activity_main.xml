@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="awesomecompanyofawesomeness.ex2sql.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_btn_insert"
+        android:layout_below="@+id/txtv_m_header"
+        android:id="@+id/btn_insertAct"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:onClick="onInsertClicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_btn_showDB"
+        android:id="@+id/btn_showAct"
+        android:layout_below="@+id/btn_insertAct"
+        android:layout_alignLeft="@+id/btn_insertAct"
+        android:layout_alignStart="@+id/btn_insertAct"
+        android:onClick="onShowClicked"
+        android:layout_alignRight="@+id/btn_insertAct"
+        android:layout_alignEnd="@+id/btn_insertAct"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/main_header"
+        android:id="@+id/txtv_m_header"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stud_info_2"
+        android:id="@+id/txtv_info2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtv_info1"
+        android:text="@string/stud_info_1"
+        android:layout_above="@+id/txtv_info2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_count"
+        android:id="@+id/txtv_m_counter"
+        android:layout_below="@+id/btn_m_search"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/btn_m_search"
+        android:layout_below="@+id/btn_showAct"
+        android:layout_alignLeft="@+id/btn_showAct"
+        android:layout_alignStart="@+id/btn_showAct"
+        android:layout_alignRight="@+id/btn_showAct"
+        android:layout_alignEnd="@+id/btn_showAct"
+        android:layout_marginTop="20dp"
+        android:onClick="onSearchClicked"/>
+
+</RelativeLayout>

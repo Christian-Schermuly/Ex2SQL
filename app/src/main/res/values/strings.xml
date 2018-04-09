@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Values for general use Activity -->
+    <string name="back">back</string>
+    <string name="txtv_name">Name</string>
+    <string name="txtv_surname">Surname</string>
+    <string name="txtv_city">City</string>
+    <string name="txtv_street">Street</string>
+    <string name="txtv_phone">Phone</string>
+    <string name="txtv_mail">Mail</string>
+    <string name="btn_sub_insert">Insert</string>
+    <string name="btn_delete">delete</string>
+    <string name="btn_update">update</string>
+
+
+    <!-- Values for Main Activity -->
+
+
+    <string name="app_name">Ex2 SQL</string>
+    <string name="app_ame">Ex2 SQL</string>
+    <string name="str_btn_insert">Add to Database</string>
+    <string name="str_btn_showDB">Show DB Content</string>
+    <string name="main_header">SQLite Database App</string>
+
+    <string name="stud_info_1">App 2 Mobile Devices</string>
+    <string name="stud_info_2">Topc 19 - Data Base</string>
+
+    <string name="main_count">There are currently no Entrys in the DB</string>
+
+
+    <!-- Values for Insert Activity -->
+
+    <string name="insert_header">Insert into Database</string>
+    <string name="insert_info">Insert the Data, you want to add</string>
+    <string name="refresh">clear</string>
+
+
+    <!-- Values for Show Activity -->
+
+    <string name="show_header">All Data</string>
+    <string name="show_deleteAll">Delete All</string>
+
+
+    <!-- Values for Detail Activity -->
+
+    <string name="detail_header">Detailed Data View</string>
+
+    <!-- Values for Search Activity -->
+
+    <string name="search_header">Search for Data</string>
+    <string name="search_discr">Select a criteria to search for</string>
+    <string name="btn_search">search</string>
+</resources>
